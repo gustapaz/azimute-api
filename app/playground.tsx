@@ -100,7 +100,7 @@ export default function Playground({ meta }: { meta: Meta }) {
           <div className="empty">
             Escolha um exemplo, edite o JSON e execute uma operação.
             <br />
-            <br />O contrato completo está no Swagger.
+            <br />O contrato e os exemplos estão na documentação.
           </div>
         ) : (
           <pre aria-label="Resultado JSON">

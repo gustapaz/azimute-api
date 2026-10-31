@@ -10,8 +10,10 @@ export default function Home() {
           <span>BACK-END LAB</span>
         </a>
         <nav aria-label="Recursos">
-          <a href="/docs.html">Swagger ↗</a>
-          <a href="/api/openapi.json">OpenAPI ↗</a>
+          <a href="/docs.html">Contrato tRPC ↗</a>
+          <a href="https://github.com/gustapaz/azimute-api/blob/main/server/router.ts">
+            Router tipado ↗
+          </a>
           <a href={"https://github.com/gustapaz/" + meta.repo}>GitHub ↗</a>
         </nav>
       </header>
